@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
 
   def create
-    raise request.env["omniuath.auth"].inspect
+    raise request.env["omniauth.auth"].inspect
   end
 end
